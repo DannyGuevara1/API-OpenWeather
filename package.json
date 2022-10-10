@@ -1,0 +1,16 @@
+{
+  "name": "semana10-20221003t170044z-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "request": "^2.88.2"
+  }
+}

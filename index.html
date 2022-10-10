@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <p>API openweathermap.org</p>
+        <h1>Clima Del Salvador y sus Departamentos </h1>
+    </header>
+    <main>
+
+        <div class="container--select">
+            <div class="select">
+                <div class="select-dropdown">
+                    <select id="departamentosSv" onchange="weatherSv(this)">
+                        <option value="all" selected>Todos los Departamentos</option>
+                        <option value="Ahuachapan">Ahuachapán</option>
+                        <option value="Cabanas">Cabañas</option>
+                        <option value="Chalatenango">Chalatenango</option>
+                        <option value="Cuscatlán">Cuscatlán</option>
+                        <option value="La Libertad">La Libertad</option>
+                        <option value="Morazan">Morazán</option>
+                        <option value="La Paz">La Paz</option>
+                        <option value="Santa Ana">Santa Ana</option>
+                        <option value="San Miguel">San Miguel</option>
+                        <option value="San Salvador">San Salvador</option>
+                        <option value="San Vicente">San Vicente</option>
+                        <option value="Sonsonate">Sonsonate</option>
+                        <option value="La Union">La Unión</option>
+                        <option value="Usulutan">Usulután</option>
+                    </select>
+                </div>
+            </div>
+            </div>
+            
+        
+
+
+        <div class="contenedor" id="contenedor"></div>
+    </main>
+
+
+    </div>
+    
+    <script src="time.js"></script>
+
+</body>
+
+</html>
